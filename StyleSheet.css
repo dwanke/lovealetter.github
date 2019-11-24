@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
+
+
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Zilla Slab', serif;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Zilla Slab', serif;
+}
+h2{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+}
+p {
+    font-size: 2rem;
+    font-family: 'Zilla Slab', serif;
+}
+ul {
+    font-family: 'Zilla Slab', serif;
+    list-style: 1.5rem;
+}
+li {
+    font-size: 1.5rem;
+}
+/*polaroid gallery for portfolio pieces begins here*/
+.gallery{
+    font-family: 'Zilla Slab', serif;
+    font-size: 1rem;
+    display: flex;
+    width: 1500px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #c9d1d3;
+    padding-top: 27px;
+}
+.pback {
+    background-color: #C9D1D3;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+figure{
+    width: 500px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #c9d1d3;
+}
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    padding: 8px 4px;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  /*HOMEPAGE HEAD WRAP*/
+  #homewrapper {
+        position: relative;
+        padding: 5em 0em 7em 0em;
+        background: #C9D1D3;
+        font-size: 1.5rem;
+        font-family: 'Zilla Slab', serif;
+    }
+  #wrapper
+  {
+      position: relative;
+      padding: 5em 0em 7em 0em;
+      background: #C9D1D3;
+      font-family: 'Zilla Slab', serif;
+    }
+  #header-wrapper
+  {
+      position: relative;
+      color: white;
+      padding: 3em 0em 7em 0em;
+      background: #1b2a49 url(Assets/Pictures/ocean.jpg) no-repeat center;
+      background-size: cover;
+      font-family: 'Zilla Slab', serif;
+    }
+
+  #header
+  {
+      position: relative;
+      padding: 5em 0em;
+      font-family: 'Zilla Slab', serif;
+    }
+  #menu
+  {
+      position: absolute;
+      top: 4.5em;
+      right: 0;
+  }
+  
+  #menu ul
+  {
+      display: inline-block;
+  }
+  
+  #menu li
+  {
+      display: block;
+      float: left;
+      text-align: center;
+  }
+  
+  #menu li a, #menu li span
+  {
+      padding: 1em 1.5em;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: rgba(255,255,255,0.80);
+      font-family: 'Zilla Slab', serif;
+    }
+  #menu .active a
+  {
+      background: #00909e;
+      border-radius: 30px;
+      color: rgba(255,255,255,1);
+  }
+  /*/////////////////////////////////////////Footer*/
+  ul.contact
+  {
+      margin: 0;
+      padding: 2em 0em 0em 0em;
+      list-style: none;
+  }
+  
+  ul.contact li
+  {
+      display: inline-block;
+      padding: 0em 0.30em;
+      font-size: 1em;
+      font-family: 'Zilla Slab', serif;
+    }
+  
+  ul.contact li span
+  {
+      display: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  ul.contact li a
+  {
+      color: #FFF;
+  }
+  
+  ul.contact li a:before
+  {
+      display: inline-block;
+      background: #3f3f3f;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 20px;
+      text-align: center;
+      color: #FFFFFF;
+  }
+  ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+  ul.contact li a.icon-facebook:before { background: #39599F; }
+  ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+  ul.contact li a.icon-tumblr:before { background: #31516A; }
+  ul.contact li a.icon-rss:before { background: #F2600B; }
+/*BANNER*/
+#banner
+{
+    padding-top: 10em;
+    text-align: center;
+}
+
+#banner .title h2
+{
+    font-size: 4em;
+    font-family: 'Zilla Slab', serif;
+}
+
+#banner .title .byline
+{
+    font-size: 2em;
+    font-family: 'Zilla Slab', serif;
+}
+#banner .button
+{
+    margin-top: 2em;
+    padding: 1.40em 3em;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1em; 
+}
+.banner
+{
+    margin-bottom: 5em;
+}
+#welcome
+{
+    position: relative;
+    padding: 7em 0em 7em 0em;
+    background: #00909e;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+#welcome .container
+{
+    width: 1000px;
+    padding: 0px 100px;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Zilla Slab', serif;
+}
+
+#welcome a
+{
+    color: rgba(255,255,255,1);
+}
+
+#welcome .button
+{
+    background: #00909e;
+    color: white;
+}
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+.fa
+{
+    text-decoration: none;
+}
+.fa:before {
+    display:inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+/*CONTACT FORM*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Zilla Slab', serif;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .contactform {
+    border-radius: 5px;
+    background-color: #C9D1D3;
+    padding: 20px;
+  }
+.footer {
+    size: 1rem;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    background-color: #1b2a49;
+    color: white;
+}
